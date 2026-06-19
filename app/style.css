@@ -1,0 +1,146 @@
+@import 'tailwindcss';
+
+
+@theme {
+  --color-purpleee: #7969c9;
+  --color-graywhite: #a1a1a1;
+  --color-bgbakground: #5c5b7bbe
+}
+
+
+html,
+body {
+  scroll-behavior: smooth;
+
+
+}
+
+.m3 {
+  background-image: url('../public//assets//mountain-3.png');
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.m2 {
+  background-image: url('../public//assets//mountain-2.png');
+
+  background-size: cover;
+  background-position: bottom;
+
+
+}
+
+.m1 {
+  background-image: url('../public//assets//mountain-1.png');
+
+  background-size: cover;
+  background-position: bottom;
+
+
+}
+
+.plantsbg {
+
+  background-image: url('../public//assets//planets.png');
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.sky1 {
+  background-image: url('../public//assets//sky.jpg');
+  background-size: cover;
+  background-position: bottom;
+
+}
+
+.loop {
+  animation: loop 10s linear infinite;
+
+
+
+}
+
+.loop2 {
+  animation: loop2 8s linear infinite;
+
+
+}
+
+@keyframes loop2 {
+
+  to {
+    transform: rotate(-360deg);
+
+
+  }
+}
+
+@keyframes loop {
+
+  to {
+    transform: rotate(360deg);
+
+
+  }
+}
+
+.rtl {
+  animation: rtl linear infinite;
+
+
+}
+
+.rtl:hover {
+  animation-play-state: paused;
+}
+
+.ltr {
+  animation: ltr linear infinite;
+  transform: translateX(-50%);
+
+
+}
+
+.ltr:hover {
+  animation-play-state: paused;
+}
+
+
+@keyframes rtl {
+  from {
+    transform: translateX(0);
+
+  }
+
+  to {
+    transform: translateX(-50%);
+
+  }
+}
+
+
+
+@keyframes ltr {
+  from {
+    transform: translateX(-50%);
+
+
+
+  }
+
+
+
+
+
+  to {
+    transform: translateX(0%);
+
+
+
+
+
+
+  }
+}
