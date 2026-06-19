@@ -107,7 +107,7 @@ export default function ContactC({ scrollMarginTop }: { scrollMarginTop: number 
 
         </motion.div>
       }
-      <div className={`max-w-7xl  h-screen flex-col flex justify-center items-center`}>
+      <div className={`max-w-7xl mx-auto  h-screen flex-col flex justify-center items-center`}>
         <div className={`w-100 max-[450px]:w-full `}>
           <div>
             <h3 className={`text-4xl max-[600px]:text-2xl pb-2`}>Let's Talk</h3>
